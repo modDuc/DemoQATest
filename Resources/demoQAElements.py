@@ -34,3 +34,17 @@ ale_nested_frames    =   "xpath=//span[@class='text'][text()='Nested Frames]"
 ale_modal_dialogs    =   "xpath=//span[@class='text'][text()='Modal Dialogs']"
 
 list_subalert_buttons = [ale_browser_windows, ale_alerts, ale_frames, ale_nested_frames, ale_modal_dialogs]
+
+
+#Widgets - All elements after opening https://demoqa.com/widgets
+wid_accordian   =   "xpath=//span[@class='text'][text()='Accordian']"
+wid_auto_complete  =   "xpath=//span[@class='text'][text()='Auto Complete']"
+wid_date_picket  =   "xpath=//span[@class='text'][text()='Date Picker']"
+wid_slider  =   "xpath=//span[@class='text'][text()='Slider']"
+wid_progress_bar  =   "xpath=//span[@class='text'][text()='Progress Bar']"
+wid_tabs  =   "xpath=//span[@class='text'][text()='Tabs']"
+wid_tool_tips  =   "xpath=//span[@class='text'][text()='Tool Tips']"
+wid_menu  =   "xpath=//span[@class='text'][text()='Menu']"
+wid_select_menu  =   "xpath=//span[@class='text'][text()='Select Menu']"
+
+list_subwidget_buttons = [wid_accordian, wid_auto_complete, wid_date_picket, wid_slider, wid_progress_bar, wid_tabs, wid_tool_tips, wid_menu, wid_select_menu]
