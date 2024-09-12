@@ -48,3 +48,12 @@ wid_menu  =   "xpath=//span[@class='text'][text()='Menu']"
 wid_select_menu  =   "xpath=//span[@class='text'][text()='Select Menu']"
 
 list_subwidget_buttons = [wid_accordian, wid_auto_complete, wid_date_picket, wid_slider, wid_progress_bar, wid_tabs, wid_tool_tips, wid_menu, wid_select_menu]
+
+
+# Interactions - All elements after opening https://demoqa.com/interaction
+interact_sortable = "xpath=//span[@class='text'][text()='Sortable']"
+interact_selectable = "xpath=//span[@class='text'][text()='Selectable']"
+interact_droppable = "xpath=//span[@class='text'][text()='Droppable']"
+interact_dragabble = "xpath=//span[@class='text'][text()='Dragabble']"
+
+list_subinteraction_buttons = [interact_sortable, interact_selectable, interact_droppable, interact_dragabble]
